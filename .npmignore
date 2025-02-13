@@ -1,0 +1,7 @@
+# .npmignore 예시
+src/
+*.ts
+.git/
+node_modules/
+/install_npm
+.vscode/

@@ -1,0 +1,28 @@
+{
+  "name": "doc-xpath-builder",
+  "version": "0.0.3",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc"
+  },
+  "keywords": [
+    "xpath"
+  ],
+  "author": "twoone14",
+  "license": "ISC",
+  "description": "A library for building XPath expressions.",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
