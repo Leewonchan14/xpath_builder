@@ -1,6 +1,6 @@
 {
   "name": "doc-xpath-builder",
-  "version": "0.0.3",
+  "version": "0.0.36",
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts"
@@ -19,7 +19,8 @@
   "license": "ISC",
   "description": "A library for building XPath expressions.",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/Leewonchan14/xpath_builder.git"
   },
   "dependencies": {
     "ts-node": "^10.9.2",
